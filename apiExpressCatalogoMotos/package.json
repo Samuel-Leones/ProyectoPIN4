@@ -1,0 +1,22 @@
+{
+  "name": "api-catalogo-motos-express",
+  "version": "1.0.0",
+  "description": "API auxiliar (servicio externo) con el catálogo de motos: marcas, modelos y versiones. Node.js + Express + MySQL.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
